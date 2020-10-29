@@ -475,6 +475,29 @@ a.linkstyle {
 /* End About Section */
 
 /* contact Section */
+a.emlink {
+	outline: none;
+	text-decoration: none;
+  }
+  
+  
+  a:visited.emlink {
+	color: black;
+  }
+  
+  a:focus.emlink {
+	
+	background: black;
+  }
+  
+  a:hover.emlink {
+	    
+	color: red;
+  }
+  
+  a:active.emlink {
+	color: black;
+  }
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
